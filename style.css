@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(./picture/sweet.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.logo{
+    color: pink;
+    font-size: 39px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: red;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: red;
+    transition: .4s
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8;
+}
+h1{
+    color: pink;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: black;
+    font-size: 25px; 
+    margin-bottom: 50px;
+}
+h4{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color:black;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px royalblue;
+    top: 6px;
+    right: 6px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black; 
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color:white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.service{
+    background: black;
+    width: 100%;
+    padding: 100px 0px;
+
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    
+}
+.card:hover{
+    background-position: left bottom;
+    color: indigo;
+    border: none;
+    box-shadow: 0 0 20px royalblue;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: pink;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(indigo, 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+color: black;
+font-size: 16px;
+line-height: 27px;
+margin-bottom: 25px;
+}
+/*--portfolio--*/
+#porfolio{
+    background: #000;
+    padding: 50px 0;
+}
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+.work :hover img{
+    transform: scale(1.1);
+}
+.container h1{
+    color: #000;
+    font-size: 50px;
+    text-align: center;
+}
+/*---contact me--*/
+.contact-me{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./picture/heart.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-section{
+    width: 100%;
+}
+.contact-info{
+width: 100%;
+margin-right: 30px;
+font-size: 30px;
+}
+.contact-info i{
+    color: #fff;
+    justify-content: center;
+    align-content: center;
+    width: 30px;
+    height: 30px;
+    float: left;
+    display: flex;
+    font-size: 22px;
+}
+.contact-info h4{
+    padding: 0 0 0 45px;
+    margin-bottom: 5px;
+    color: #ffff;
+}
+.contact-form{
+    max-width: 700px;
+    margin-right: 50px; 
+    padding: 20px;  
+    padding-bottom: 9px;
+}
+.contact-form h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.contact-form .email{
+    color: #fff;
+    border: none;
+    width: 100%;
+    height: 50%;
+    padding: 2px;
+    font-size: 65px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.contact-form .email :first-child{
+    margin-right: 20px;
+    border-radius: 2px;
+}
+.contact-form textarea{
+    background: rgb(77, 74, 74);
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    height: 100%;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0, 1);
+    margin-bottom: 20px;
+}
+.contact-form .sent-btn{
+    float: right;
+    background: indigo;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact-form .sent-btn:hover{
+    background: pink;
+}
+#footer{
+    background: grey;
+    padding: 0 30px;
+    color: #000;
+    font-size: 13px;
+    text-align: center;
+}
+#footer .end{
+    padding-top: 5px;
+}
+#footer p{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
